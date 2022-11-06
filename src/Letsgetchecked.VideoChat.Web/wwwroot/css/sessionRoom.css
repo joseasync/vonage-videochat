@@ -1,0 +1,17 @@
+#subscriber {
+    background-color: #ddd;
+    border-radius: 7px;
+    float:left;
+    width: 45%;
+    height: 400px;
+    border:1px solid #f00;
+    margin:5px;
+}
+#publisher {
+    background:#000;
+    float:left;
+    height: 400px;
+    width: 45%;
+    border:1px solid #f00;
+    margin:5px;
+}

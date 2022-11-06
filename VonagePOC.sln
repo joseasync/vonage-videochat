@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letsgetchecked.VideoChat.Web", "src\Letsgetchecked.VideoChat.Web\Letsgetchecked.VideoChat.Web.csproj", "{11D0DC11-0F11-4F53-A569-9C6901201825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{75BA5902-4A33-4677-812B-F5E9FFADEE61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contracts", "contracts", "{D42D875E-1373-426E-AD37-CD635E39BB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letsgetchecked.VideoChat.Contracts", "src\Letsgetchecked.VideoChat.Contracts\Letsgetchecked.VideoChat.Contracts.csproj", "{899DCE6B-04E3-4C36-959B-101ADA6CA6CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraesctructure", "Infraesctructure", "{52D7A804-17DE-4E2E-82DE-D953FE8B4180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letsgetchecked.VideoChat.Vonage", "src\Letsgetchecked.VideoChat.Vonage\Letsgetchecked.VideoChat.Vonage.csproj", "{AC7F3EC9-F498-4F4C-9CCA-A3F485CFFE5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11D0DC11-0F11-4F53-A569-9C6901201825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D0DC11-0F11-4F53-A569-9C6901201825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D0DC11-0F11-4F53-A569-9C6901201825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D0DC11-0F11-4F53-A569-9C6901201825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899DCE6B-04E3-4C36-959B-101ADA6CA6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899DCE6B-04E3-4C36-959B-101ADA6CA6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899DCE6B-04E3-4C36-959B-101ADA6CA6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899DCE6B-04E3-4C36-959B-101ADA6CA6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F3EC9-F498-4F4C-9CCA-A3F485CFFE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F3EC9-F498-4F4C-9CCA-A3F485CFFE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F3EC9-F498-4F4C-9CCA-A3F485CFFE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F3EC9-F498-4F4C-9CCA-A3F485CFFE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11D0DC11-0F11-4F53-A569-9C6901201825} = {75BA5902-4A33-4677-812B-F5E9FFADEE61}
+		{899DCE6B-04E3-4C36-959B-101ADA6CA6CA} = {D42D875E-1373-426E-AD37-CD635E39BB8B}
+		{AC7F3EC9-F498-4F4C-9CCA-A3F485CFFE5A} = {52D7A804-17DE-4E2E-82DE-D953FE8B4180}
+	EndGlobalSection
+EndGlobal

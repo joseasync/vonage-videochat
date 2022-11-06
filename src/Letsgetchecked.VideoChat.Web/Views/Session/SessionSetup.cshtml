@@ -1,0 +1,28 @@
+﻿@model Participant
+@{
+    ViewData["Title"] = "Join Session";
+}
+
+<script src="~/js/jquery-3.6.1.min.js"></script>
+<script src="~/js/createSession.js"></script>
+
+<div class="row text-lg-start">
+    <div class="col-md-4 offset-md-4">
+        <h1 class="display-3">Join Session</h1>
+
+        @using (Html.BeginForm("SessionRoom", "Session", FormMethod.Post))
+            {
+                <label>Session Id</label>
+                @Html.TextBoxFor(m => m.SessionId, new { @class="form-control"})
+                <br/>
+                <br/>
+                <label>Name</label>
+                @Html.TextBoxFor(m => m.Name, new { @class="form-control"})
+                
+                <br/>
+                <br/>
+                <input type="submit" value="Join"/>
+            }
+        
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="~/js/jquery-3.6.1.min.js"></script>
+<script src="~/js/createSession.js"></script>
+
+<div class="row text-center">
+    <div class="col-md-4 offset-md-4">
+    <h1 class="display-3">Create Session</h1>
+    <br/>
+    <button id="createSession" type="button" class="btn btn-primary btn-lg">Create</button>
+    <br/>
+    <br/>
+    <input id="sessionId" class="form-control" type="text" value="" aria-label="" disabled readonly>
+    
+    
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+                    <h4 class="modal-title text-center">Session Result</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <label>Session Created</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    <button id="joinSession" type="button" class="btn btn-success" data-dismiss="modal">Join Session</button>
+                </div>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+</div>
